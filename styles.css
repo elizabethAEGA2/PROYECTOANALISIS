@@ -1,0 +1,19 @@
+/* Importa los estilos de Tailwind CSS */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Agrega tus estilos personalizados aquí */
+
+/* Personalización de estilos para la página de inicio de sesión */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Centra el formulario en la pantalla */
+#login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos adicionales según tus necesidades */
